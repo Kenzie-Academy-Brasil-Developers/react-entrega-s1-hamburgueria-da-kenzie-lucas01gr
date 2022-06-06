@@ -1,0 +1,59 @@
+.ContainerCart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  margin-right: 115px;
+  width: 363px;
+  height: 365px;
+}
+.divH3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+
+  background-color: #27ae60;
+}
+.h3Carrinho {
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+
+  margin-top: 6px;
+  border-radius: 5px 5px 0px 0px;
+}
+.divBody {
+  overflow-y: scroll;
+}
+.divTotal {
+  display: flex;
+  flex-direction: column;
+}
+.divCarrinho {
+  height: 100px;
+}
+.sacolaVazia {
+  font-size: 13px;
+
+  margin-bottom: 0px;
+  color: #333333;
+}
+.divSacolaVazia {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.addItens {
+  margin-top: 0px;
+  font-size: 10px;
+
+  color: #909090;
+}
+@media (max-width: 702px) {
+  .ContainerCart {
+    margin-right: 0px;
+  }
+}

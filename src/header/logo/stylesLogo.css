@@ -1,0 +1,21 @@
+.divBurguer {
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 115px;
+}
+.h1Burguer {
+  color: #333333;
+  font-size: 20px;
+}
+.Kenzie {
+  color: #eb5757;
+  font-size: 15px;
+}
+@media (max-width: 620px) {
+  .divBurguer {
+    align-items: center;
+
+    margin-left: 0px;
+  }
+}

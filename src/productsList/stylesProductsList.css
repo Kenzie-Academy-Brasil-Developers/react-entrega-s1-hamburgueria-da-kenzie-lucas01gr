@@ -1,0 +1,29 @@
+.ContainerListProd {
+  width: 950px;
+  height: 450px;
+  margin-left: 115px;
+  margin-right: 65px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.divPai {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 620px) {
+  .ContainerListProd {
+    width: 100vw;
+    height: 25vh;
+    margin-left: 80px;
+  }
+  .divPai {
+    display: flex;
+    flex-wrap: nowrap;
+    /* flex-direction: row; */
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+}

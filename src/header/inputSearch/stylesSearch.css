@@ -1,0 +1,26 @@
+.divContainer {
+  margin-right: 115px;
+  background-color: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+}
+.input {
+  border-radius: 8px;
+  width: 180px;
+  height: 30px;
+  border: none;
+}
+.button {
+  border-radius: 8px;
+  color: #fff;
+  background-color: #27ae60;
+  height: 30px;
+}
+@media (max-width: 620px) {
+  .divContainer {
+    margin-left: 110px;
+  }
+  .input {
+    width: 80px;
+  }
+}

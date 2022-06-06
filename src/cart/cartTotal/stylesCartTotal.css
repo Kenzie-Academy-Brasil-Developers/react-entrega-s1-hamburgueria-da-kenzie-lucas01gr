@@ -1,0 +1,39 @@
+.divFooter {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.divTotalPrice {
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  height: 20px;
+}
+.divButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20px;
+}
+.buttonRemover {
+  background-color: #e0e0e0;
+  color: #828282;
+  height: 20px;
+  margin-top: 0px;
+}
+.divTotalPrice {
+  display: flex;
+  margin-bottom: 2px;
+  background-color: #f5f5f5;
+  color: #333333;
+}
+.total {
+  font-size: 10px;
+  margin-top: 0px;
+}
+.rs {
+  font-size: 10px;
+  margin-top: 0px;
+}
